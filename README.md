@@ -20,7 +20,7 @@ This application collects temperature and humidity data from an MQTT broker, sto
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mqtt-weather-app
+   git clone https://github.com/orestengabo0/mqtt-weather-app.git
    cd mqtt-weather-app
    ```
 
@@ -66,6 +66,10 @@ mqtt-weather-app/
 
 - `POST /api/weather/data` - Store raw temperature and humidity readings
 - `GET /api/weather/history` - Retrieve historical data for charting
+- `GET /db-viewer` - Database Viewer Routes
+- `GET /db-viewer/raw-data` - View raw_data table
+- `GET /db-viewer/avg-data` - View avg_data table
+- `GET http://localhost:3000/` - Access index.html
 
 ## Database Schema
 
